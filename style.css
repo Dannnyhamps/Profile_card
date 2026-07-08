@@ -1,0 +1,57 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:blue !important;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.center-card {
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    /* first way of padding */
+    padding: 10px;
+
+    /* second way of padding */
+    /* padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-right: 25px; */
+
+    /* third */
+    /* padding: 10px 30px; */
+
+    /* fourth */
+    /* padding: 10px 20px 40px 5px; */
+}
+
+
+.social-link-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    background-color: yellow;
+}
